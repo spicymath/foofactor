@@ -40,7 +40,7 @@ a <- factor(c("character", "hits", "your", "eyeballs"))
 b <- factor(c("but", "integer", "where it", "counts"))
 ```
 
-Simply catenating two factors leads to a result that most don't expect.
+Simply concatenating two factors leads to a result that most don't expect.
 
 ```{r}
 c(a, b)

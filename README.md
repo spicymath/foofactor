@@ -29,7 +29,8 @@ Binding two factors via `fbind()`:
     a <- factor(c("character", "hits", "your", "eyeballs"))
     b <- factor(c("but", "integer", "where it", "counts"))
 
-Simply catenating two factors leads to a result that most don’t expect.
+Simply concatenating two factors leads to a result that most don’t
+expect.
 
     c(a, b)
     #> [1] 1 3 4 2 1 3 4 2
